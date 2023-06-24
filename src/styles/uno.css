@@ -1,0 +1,644 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --bs-breakpoint-md: 1250px;
+}
+
+.title_content_text {
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 150px;
+    padding-bottom: 0px;
+}
+
+.life_box_text {
+
+    margin-bottom: 69px;
+    margin-top: 70px;
+}
+
+.price_box_text {
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.range_box {
+    width: 90%;
+}
+.image_tablet_container{
+    position: absolute;
+    left: 12%;
+    top: -250px;
+}
+.teblet_bef_aft_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.range_box_tablet{
+    width: 450px;
+}
+input[type="range"] {
+    position: relative;
+    appearance: none;
+    height: 7px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+}
+.container_footer{
+    height: 150px;
+}
+input[type="range"]::-webkit-slider-thumb {
+
+    appearance: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    box-shadow: 0 0 2px 0 #555;
+    transition: background .3s ease-in-out;
+}
+input[type="range"]::before{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    content: '';
+    left: 49.2%;
+    background: #68B738;
+}
+.life_content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.price_box {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box_life_cont {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 30px;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    line-height: 37px;
+}
+
+.box_life_cont_tablet {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-align: end;
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+
+.type1 {
+    padding: 15px 57px 20px 57px;
+}
+
+.type1::before {
+    content: 'снижение веса';
+    position: absolute;
+    font-size: 14px;
+    text-transform: lowercase;
+    bottom: -15px;
+    left: 25%;
+}
+
+.type2 {
+    padding: 15px 30px 20px 30px;
+}
+
+.type2::before {
+    content: 'затрачено времени';
+    position: absolute;
+    font-size: 14px;
+    text-transform: lowercase;
+    bottom: -15px;
+    left: 20%;
+}
+
+.card_icon_box {
+    background-color: #68B738;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 60px;
+    width: 60px;
+}
+
+.card_for_box2 {
+    position: relative;
+
+}
+
+.text::before {
+    content: '';
+    position: absolute;
+    font-size: 280px;
+    top: -110px;
+    z-index: -99;
+    right: 0;
+    color: #F2F2F2;
+}
+
+.t1::before {
+    content: '1';
+}
+
+.t2::before {
+    content: '2';
+}
+
+.t3::before {
+    content: '3';
+}
+
+.t4::before {
+    content: '4';
+}
+
+.card_content_box {
+    margin-top: 31px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.content_box_1 {
+    margin-top: 82px;
+}
+
+.logo {
+    width: 202px;
+    height: 59px;
+}
+
+.mobile_brand {
+    display: none;
+}
+
+.headerclass {
+    background-image: url('../../public/media/index-background-desktop.png');
+    background-size: 50% auto;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    padding: 71px 110px 0px 110px;
+}
+
+.header_menu_item {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.content_brand_item {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.header_button_item {
+    border: 0;
+    background-color: #68B738;
+    padding: 14px 26px;
+    width: 244px;
+    height: 54px;
+    gap: 4px;
+    font-size: 20px;
+    line-height: 0px;
+    color: white;
+    margin-top: 52px;
+    text-transform: uppercase;
+}
+
+.card_title {
+    display: flex;
+    align-items: center;
+    margin-left: 33px;
+}
+
+.content_box_2 {
+    margin-top: 71px;
+}
+
+.card_title p {
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-left: 47px;
+}
+
+.card_box {
+    height: 100%;
+    padding: 47px 47px 10px 47px;
+
+    background: #F2F2F2;
+}
+
+.card_desc_box {
+    margin: 52px 39px;
+}
+
+.content_box_3 {
+    display: flex;
+    background: #F2F2F2;
+    justify-content: center;
+}
+
+.box_aft_bef  {
+    position: absolute;
+    display: flex;
+    top: 0;
+}
+
+.box_aft_bef:nth-child(1) {
+    top: -100px;
+}
+.cat_tablet_container{
+    display: none;
+
+    margin-top: 250px;
+    height: 400px;
+    position: relative;
+    background: #EAEAEA;
+
+}
+.image_before {
+    width: 325px auto;
+    height: 470px;
+}
+
+.image_after {
+    width: 325px auto;
+    height: 560px;
+}
+
+.card_btn {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.box_life_cont_tablet {
+    position: relative;
+    
+    display: none;
+}
+
+.card_content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.content_item {
+    margin-top: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.button_toggle {
+    border: 0;
+}
+
+.box_tablet {
+    display: block;
+}
+
+.container_map {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    padding: 0px;
+}
+.phone_text_title{
+    display: none;
+}
+.container_desc_map {
+    display: flex;
+
+    align-items: center;
+    background-color: white;
+    top: 0;
+    position: absolute;
+}
+.brand_text_mobile{
+    display: none;
+}
+.hr_mob{
+    display: none;
+}
+.text_mob_foot_center{
+    text-align: end;
+}
+.text_mob_foot_start{
+    text-align: start;
+
+}
+.mobile_before_after_container{
+    display: none;
+}
+@media (max-width: 1250px) {
+    .box_brake {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .cat_tablet_container{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .box_life_cont_tablet {
+        display: block;
+    }
+
+    .content_box_2 {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .table_ver {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .price_box {
+        display: none;
+    }
+
+    .header_img_box img {
+        display: none;
+    }
+
+    .box_tablet {
+        display: none;
+    }
+
+    .tablet_ver {
+        margin-bottom: 170px;
+    }
+
+    .box_aft_bef {
+        display: none;
+    }
+
+    .content_box_3 {
+        background-color: white;
+    }
+
+    .box_life_cont_tablet {
+        display: block;
+    }
+
+    .headerclass {
+        margin-top: 42px;
+        background-image: url('../../public/media/index-can.png');
+        background-size: 100% auto;
+        background-position-y: bottom;
+        height: 1250px;
+    }
+
+    .header_menu_item {
+        color: black;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .headerclass {
+        height: 900px;
+    }
+
+}
+
+@media (max-width: 810px) {
+
+    .cat_tablet_container{
+        display: none;
+    }
+    .phone_text_none{
+        display: none;
+    }
+    .content_box_2 {
+        margin-top: 27px;
+    }
+    .text_mob_foot_start{
+        text-align: center;
+
+    }
+    .mobile_before_after_container{
+        display: block;
+        padding: 0;
+    }
+    .progress_bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 35px 0px 39px 0px;
+
+    }
+
+    .content_box_3{
+        background-color: #EAEAEA;
+    }
+    .hr_mob{
+        display: block;
+    }
+    .brand_text_mobile{
+        display: block;
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .brand_text_mobile span{
+        font-weight: 900;
+    }
+    .type1 {
+        padding: 14.47px 42.37px 17.53px 42.63px;
+    }
+
+    .type2 {
+        padding: 14.47px 21.37px 17.53px 20.63px;
+    }
+    .text_mob_foot_center{
+        font-weight: bold;
+        text-align: center;
+    }
+    .title_content_text {
+        font-size: 36px;
+        margin-top: 30px;
+        line-height: 40px;
+    }
+
+    .br_phone {
+        display: none;
+    }
+
+    .life_content {
+        justify-content: space-around;
+    }
+
+    .type2::before {
+        content: 'затрачено времени';
+        position: absolute;
+        bottom: -15px;
+        left: 15%;
+    }
+
+    .type1::before {
+        content: 'снижение веса';
+        position: absolute;
+        font-size: 14px;
+        text-transform: lowercase;
+        bottom: -15px;
+        left: 20%;
+    }
+
+    .t1::before {
+        content: '';
+    }
+
+    .life_box_text {
+        margin-bottom: 25px;
+        margin-top: 33px;
+    }
+
+    .box_life_cont_tablet {
+        margin-top: 34px;
+        text-align: center;
+        flex-basis: 100%;
+        width: 0;
+    }
+
+    .t2::before {
+        content: '';
+    }
+
+    .t3::before {
+        content: '';
+    }
+
+    .t4::before {
+        content: '';
+    }
+
+    .card_for_box2 {
+        display: flex;
+        min-height: 60px;
+        align-items: center;
+    }
+
+    .tablet_ver,
+    .mob_ver {
+        margin-bottom: 26px;
+    }
+
+    .card_icon_box {
+        min-width: 60px;
+    }
+
+    .card_content_box {
+        margin-top: 0px;
+
+    }
+
+    .card_content_box p {
+        line-height: 18px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+
+    .headerclass {
+        background-image: url('../../public/media/index-background-desktop.png');
+        background-position-y: top;
+        height: auto;
+        margin-top: 0;
+        background-repeat: no-repeat;
+        padding: 0;
+    }
+
+    .navbar_mobile {
+        background-color: white;
+        padding: 20px 20px 20px 20px;
+
+    }
+
+    .card_box {
+        padding: 30px 20px 10px 20px;
+    }
+
+    .card_desc_box {
+        margin: 20px;
+    }
+
+    .header_brand {
+        display: none;
+    }
+
+    .mobile_brand {
+        display: block;
+    }
+
+    .content_brand_item {
+        font-size: 36px;
+        text-align: center;
+        line-height: 36px;
+        color: white;
+        margin-top: 27px;
+    }
+
+    .content_item {
+        text-align: center;
+        color: white;
+        margin-bottom: 29px;
+    }
+    .phone_text_title{
+        display: block;
+    }
+    .header_img_box img {
+        display: block;
+        height: 280px;
+        width: auto;
+    }
+
+    .header_button_item {
+        display: none;
+    }
+
+    .card_title img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .card_title p {
+        font-size: 24px;
+        line-height: 37px;
+    }
+
+    .card_content {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
